@@ -1,2 +1,2 @@
 # drum-kit
- javascript30 challenge
+ A javascript30 challenge by wesbos. made using JavaScript, CSS and HTML.
