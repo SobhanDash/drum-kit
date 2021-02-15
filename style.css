@@ -49,7 +49,7 @@ kbd{
     box-shadow: 0 0 1rem #008080;
 }
 
-@media (max-width=900px){
+@media (max-width: 900px){
     .container{
         width: auto;
         flex-flow: column wrap;
