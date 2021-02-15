@@ -21,21 +21,22 @@ html{
 
 .key{
     background-color: transparent;
-    color: rgb(5, 148, 148);
+    color: rgb(22, 255, 255);
     font-size: 1rem;
     width: 5em;
     height: 5em;
     margin: 1rem 1rem;
     text-align: center;
-    padding-bottom: 1rem;
+    padding: .5em;
     text-transform: uppercase;
-    transition: all 0.07s ease-in-out;
+    transition: all 0.08s ease-in-out;
     border: none;
 }
 
 kbd{
     font-size: 1.5em;
     display: block;
+    margin-bottom: .5em;
 }
 
 .sound{
@@ -46,7 +47,7 @@ kbd{
 .playing{
     transform: scale(1);
     border-color: #008080;
-    box-shadow: 0 0 1rem #008080;
+    box-shadow: 0 0 2rem #008080;
 }
 
 @media (max-width: 900px){
@@ -54,4 +55,35 @@ kbd{
         width: auto;
         flex-flow: column wrap;
     }
+}
+
+/* footer bar */
+.attribution{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 1rem;
+    transform: translateY(100%);
+    transition: .3s;
+    font-size: 14px;
+    font-weight: lighter;
+    text-align: center;
+    color: rgb(22, 255, 255);
+}
+
+.attribution:hover{
+    transform: translateY(0);
+}
+
+.attribution::before{
+    content: '';
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+}
+.attribution a{
+    color: rgb(22, 255, 255);
 }
