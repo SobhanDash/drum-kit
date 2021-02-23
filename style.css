@@ -31,21 +31,20 @@ html{
     color: rgb(22, 255, 255);
     font-size: 1.2rem;
     width: 5em;
-    height: 5em;
-    margin: 0.8em 0;
+    height: 5rem;
     text-align: center;
     text-transform: uppercase;
     transition: all 0.08s ease-in-out;
     border: none;    
     font-weight: 600;
-    padding: 1rem 1rem;
+    padding: 8px;
     text-shadow: 0 0 .5rem #05a3ff;
 }
 
 button{
     font-size: 1.5em;
     display: block;
-    margin-bottom: .5em;
+    
 }
 
 .sound{
@@ -56,6 +55,7 @@ button{
     justify-content: center;
     align-items: center;
     display: flex;
+    margin-bottom: .5rem;
 }
 
 .playing{
@@ -66,7 +66,6 @@ button{
 
 @media only screen and (max-width: 600px){
     .container{
-        width: auto;
         flex-flow: column wrap;
     }
 }
