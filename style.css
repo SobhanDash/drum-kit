@@ -11,29 +11,38 @@ html{
 }
 
 .container{
-    max-width: 75%;
+    width: auto;
     height: 100vh;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     margin: 0 auto;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.keys{
+    margin: 0 0.5rem;
+    padding: 0 0.5rem;
 }
 
 .key{
     background-color: transparent;
     color: rgb(22, 255, 255);
-    font-size: 1rem;
+    font-size: 1.2rem;
     width: 5em;
     height: 5em;
-    margin: 1rem 1rem;
+    margin: 0.8em 0;
     text-align: center;
-    padding: .5em;
     text-transform: uppercase;
     transition: all 0.08s ease-in-out;
-    border: none;
+    border: none;    
+    font-weight: 600;
+    padding: 1rem 1rem;
+    text-shadow: 0 0 .5rem #05a3ff;
 }
 
-kbd{
+button{
     font-size: 1.5em;
     display: block;
     margin-bottom: .5em;
@@ -42,6 +51,11 @@ kbd{
 .sound{
     font-size: .8em;
     text-transform: uppercase;
+    color: rgb(22, 255, 255);
+    text-shadow: 0 0 .5rem #05a3ff;
+    justify-content: center;
+    align-items: center;
+    display: flex;
 }
 
 .playing{
