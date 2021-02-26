@@ -13,7 +13,7 @@ html{
 .wrapper{
     width: 100vw;
     height: 100vh;
-    display: flex;
+    display: grid;
 }
 
 .container{
@@ -106,11 +106,9 @@ button{
         background-position: center;
     }
     .wrapper{
-        height: 100vh;
-        width: 60vw;
-        justify-content: center;
-        align-items: center;
-        margin: 0 8rem;
+        display: grid;
+        grid-template-columns: repeat(autofit, minmax(250px, 1fr));
+        
     }
     .container{
         flex-flow: row wrap;
