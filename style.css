@@ -10,6 +10,11 @@ html{
     background-repeat: no-repeat;
 }
 
+.wrapper{
+    width: 100%;
+    height: 100vh;
+}
+
 .container{
     width: auto;
     height: 100vh;
@@ -99,8 +104,10 @@ button{
     html{
         background-position: center;
     }
+    .wrapper{
+        height: 50%;
+    }
     .container{
-        width: 100%;
         flex-flow: row wrap;
         flex: 1 1 150px;
         margin: 3rem auto 1rem auto;
