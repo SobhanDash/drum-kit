@@ -31,7 +31,7 @@ html{
     background-color: transparent;
     color: rgb(22, 255, 255);
     font-size: 1.2rem;
-    width: 5em;
+    width: 5rem;
     height: 5rem;
     text-align: center;
     text-transform: uppercase;
@@ -69,18 +69,17 @@ button{
         background-position: center;
     }
     .container{
-        flex-flow: row wrap;
+        flex-wrap: wrap row;
         flex: 1 1 150px;
         margin: 3rem auto 1rem auto;
         justify-content: space-evenly;
     }
     .key{
-        width: 10rem;
-        height: 10rem;
+        width: 8rem;
         font-size: 2rem;
     }
     .sound{
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
 }
 
