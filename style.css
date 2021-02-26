@@ -65,13 +65,20 @@ button{
 }
 
 @media screen and (max-width: 900px){
+    html{
+        background-position: center;
+    }
     .container{
         flex-flow: row wrap;
         flex: 1 1 150px;
     }
     .key{
-        width: 7em;
-        height: 7rem;
+        width: 10em;
+        height: 10rem;
+        font-size: 2rem;
+    }
+    .sound{
+        font-size: 1.3em;
     }
 }
 
