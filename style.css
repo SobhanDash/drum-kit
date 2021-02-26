@@ -69,6 +69,10 @@ button{
         flex-flow: row wrap;
         flex: 1 1 150px;
     }
+    .key{
+        width: 7em;
+        height: 7rem;
+    }
 }
 
 /* footer bar */
