@@ -106,9 +106,12 @@ button{
         background-position: center;
     }
     .wrapper{
-        display: grid;
-        grid-template-columns: repeat(autofit, minmax(250px, 1fr));
-        
+        height: 100vh;
+        width: 60vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 8rem;
     }
     .container{
         flex-flow: row wrap;
