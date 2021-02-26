@@ -71,14 +71,16 @@ button{
     .container{
         flex-flow: row wrap;
         flex: 1 1 150px;
+        margin: 3rem auto 1rem auto;
+        justify-content: space-evenly;
     }
     .key{
-        width: 10em;
+        width: 10rem;
         height: 10rem;
         font-size: 2rem;
     }
     .sound{
-        font-size: 1.3em;
+        font-size: 1.5rem;
     }
 }
 
