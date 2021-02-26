@@ -106,8 +106,11 @@ button{
         background-position: center;
     }
     .wrapper{
-        height: 50vh;
+        height: 100vh;
         width: 60vw;
+        justify-content: center;
+        align-items: center;
+        margin: 0 8rem;
     }
     .container{
         flex-flow: row wrap;
