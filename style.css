@@ -24,6 +24,7 @@ html{
 .keys{
     margin: 0 0.5rem;
     padding: 0 0.5rem;
+    
 }
 
 .key{
@@ -42,9 +43,8 @@ html{
 }
 
 button{
-    font-size: 1.5em;
     display: block;
-    
+    outline: none;
 }
 
 .sound{
@@ -64,7 +64,7 @@ button{
     box-shadow: 0 0 2rem #008080;
 }
 
-@media only screen and (max-width: 600px){
+@media screen and (max-width: 900px){
     .container{
         flex-flow: row wrap;
         flex: 1 1 150px;
