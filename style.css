@@ -11,8 +11,9 @@ html{
 }
 
 .wrapper{
-    width: 100%;
+    width: 100vw;
     height: 100vh;
+    display: flex;
 }
 
 .container{
@@ -105,7 +106,8 @@ button{
         background-position: center;
     }
     .wrapper{
-        height: 50%;
+        height: 50vh;
+        width: 60vw;
     }
     .container{
         flex-flow: row wrap;
