@@ -106,16 +106,17 @@ button{
         background-position: center;
     }
     .wrapper{
-        width: auto;
         display: flex;
         justify-content: center;
         align-items: center;
         margin: 0 8rem;
+        width: fit-content;
+        height: fit-content;
     }
     .container{
         flex-flow: row wrap;
         flex: 1 1 150px;
-        margin: 3rem auto 1rem auto;
+        margin: 1rem auto 1rem auto;
         justify-content: space-evenly;
     }
     .key{
