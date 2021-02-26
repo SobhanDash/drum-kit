@@ -100,7 +100,7 @@ button{
         background-position: center;
     }
     .container{
-        flex-wrap: wrap row;
+        flex-flow: row wrap;
         flex: 1 1 150px;
         margin: 3rem auto 1rem auto;
         justify-content: space-evenly;
